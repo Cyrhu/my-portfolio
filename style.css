@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccff1;
+    color: #313141;
+    margin: 0;
+    padding: 22px;
+    line-height: 1.25;
+}
+
+h1 {
+    color: #313141;
+    text-align: center;
+}
+h4 {
+    color: #313141;
+    text-align: center;
+}
+section {
+    background-color: #dddff1;
+    margin: 25px 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+a {
+    color: #9070ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.25s ease;
+}
+a:hover {
+    color: #3322aa;
+}
+a:active {
+    color: #9070ff;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.project-card {
+    background-color: #eef4fb;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-left: 5px solid #ccaaff;
+    transition: transform 0.25s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
