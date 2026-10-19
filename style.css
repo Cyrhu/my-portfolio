@@ -42,11 +42,13 @@ main {
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
-    border-left: 5px solid #d5d0df;
     border-bottom: 5px solid #d5d0df;
-    transition: transform 0.25s ease;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(49, 49, 65, 0.2);
 }
 
